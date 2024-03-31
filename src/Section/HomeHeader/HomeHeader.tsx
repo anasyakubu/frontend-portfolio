@@ -13,7 +13,7 @@ const HomeHeader = () => {
               className="text-3xl font-extrabold text-black"
               style={{ fontSize: "4rem", lineHeight: "115%" }}
             >
-              Fronted <br />
+              Frontend <br />
             </h1>
             <div className="glitch-wrapper">
               <div className="glitch" data-glitch="Developer">
