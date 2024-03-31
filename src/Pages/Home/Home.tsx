@@ -1,12 +1,13 @@
-import { Button } from "../../components/ui/button";
-const App = () => {
+import HomeHeader from "@/Section/HomeHeader/HomeHeader";
+
+const Home = () => {
   return (
     <>
-      <div className="text-center mt-5">
-        <Button>Add Button</Button>
+      <div className="Home">
+        <HomeHeader />
       </div>
     </>
   );
 };
 
-export default App;
+export default Home;
