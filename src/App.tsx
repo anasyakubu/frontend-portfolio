@@ -1,12 +1,28 @@
-import { Button } from "./components/ui/button";
-const App = () => {
-  return (
-    <>
-      <div className="text-center mt-5">
-        <Button>Add Button</Button>
-      </div>
-    </>
-  );
-};
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./Pages/Layout/Layout";
+import Home from "./Pages/Home/Home";
 
-export default App;
+// import './App.css'
+
+export default function App() {
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+
+            {/* <Route path="about" element={<About />} /> */}
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
+}
+
+const rootElement = document.getElementById("root");
+if (rootElement) {
+  const root = ReactDOM.createRoot(rootElement);
+  root.render(<App />);
+}
