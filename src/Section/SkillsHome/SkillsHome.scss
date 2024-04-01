@@ -1,0 +1,47 @@
+.SkillsHome {
+  .designImg {
+    background-image: radial-gradient(#000000 1px, transparent 1px);
+    background-size: 12px 12px;
+    background-color: #ffffff;
+  }
+
+  .engineerImg {
+    background: radial-gradient(
+          circle,
+          transparent 20%,
+          #ffffff 20%,
+          #ffffff 80%,
+          transparent 80%,
+          transparent
+        )
+        0% 0% / 24px 24px,
+      radial-gradient(
+          circle,
+          transparent 20%,
+          #ffffff 20%,
+          #ffffff 80%,
+          transparent 80%,
+          transparent
+        )
+        12px 12px / 24px 24px,
+      linear-gradient(#000000 0.5px, transparent 0.5px) 0px -0.25px / 12px 12px,
+      linear-gradient(90deg, #000000 0.5px, #ffffff 0.5px) -0.25px 0px / 12px 12px
+        #ffffff;
+    background-size: 24px 24px, 24px 24px, 12px 12px, 12px 12px;
+    background-color: #ffffff;
+  }
+}
+
+@media (max-width: 600px) {
+  .SkillsHome {
+    .p-10 {
+      padding: 2%;
+      .p-10 {
+        padding: 1px;
+      }
+    }
+    .header {
+      font-size: 0.5rem;
+    }
+  }
+}
