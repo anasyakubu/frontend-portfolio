@@ -1,0 +1,9 @@
+.Nav {
+  .link {
+    transition: all 0.4s ease-in-out;
+    &:hover {
+      border-bottom: 2px solid #000;
+      transform: scale(1.1);
+    }
+  }
+}
