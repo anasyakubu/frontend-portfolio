@@ -1,0 +1,12 @@
+.OverYears {
+  height: 100vh;
+}
+
+@media (max-width: 600px) {
+  .OverYears {
+    height: 100%;
+    .p-10 {
+      padding: 2%;
+    }
+  }
+}

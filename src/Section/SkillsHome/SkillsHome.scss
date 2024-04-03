@@ -1,4 +1,5 @@
 .SkillsHome {
+  height: 100vh;
   .designImg {
     background-image: radial-gradient(#000000 1px, transparent 1px);
     background-size: 12px 12px;
@@ -34,6 +35,7 @@
 
 @media (max-width: 600px) {
   .SkillsHome {
+    height: 100%;
     .p-10 {
       padding: 2%;
       .p-10 {

@@ -6,9 +6,9 @@ const SkillsHome = () => {
         <div className="p-3 space-y-2 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
           {/* Design */}
           {/* text */}
-          <div className="p-10 py-10 my-10">
+          <div className="p-10 py-10">
             <h1
-              className="text-xl font-extrabold text-black header"
+              className="font-extrabold text-black header"
               style={{ fontSize: "4rem" }}
             >
               Design
@@ -27,7 +27,7 @@ const SkillsHome = () => {
           {/* text */}
           <div className="p-10 py-10 my-10">
             <h1
-              className="text-xl font-extrabold text-black header"
+              className="font-extrabold text-black header"
               style={{ fontSize: "4rem" }}
             >
               Engineering
